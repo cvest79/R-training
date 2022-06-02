@@ -1,0 +1,39 @@
+---
+title: "R practice"
+author: "NDP"
+date: '2022-06-02'
+output: html_document
+---
+
+## Intro to markdown
+
+Markdown allows you to do things like **bold**, _italic_, 'codefont' and more!
+
+make a list with astrisks like 
+* bold with double astrisks
+
+* italics with underscores
+
+* code- type with backticks
+
+* you can aslo use hyphens instead of astrisks
+
+For a number list:
+
+1. 1\. bold....
+
+2. 1\. italic...
+
+3. 1\. code...
+
+Hyperlink are like [hyperlinkedtext](https://mylink.org)
+
+```{r load_data}
+gap <-gapminder
+```
+
+```{r make-plot}
+plot(lifeExp ~ year , data=gap)
+```
+temp <- C(1,2,3)
+```
